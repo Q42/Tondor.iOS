@@ -4,19 +4,27 @@ struct SwipeView: View {
     @State var profiles: [Profile] = Profile.all.reversed()
 
     var body: some View {
-        ZStack {
-            DoneView {
-                withAnimation { profiles = Profile.all }
-            }
-
-            ForEach(profiles) { profile in
-                ProfileCardView(profile: profile) { likeType in
-                    withAnimation { removeProfile(profile) }
-                    onLike(profile, type: likeType)
+        NavigationView {
+            ZStack {
+                DoneView {
+                    withAnimation { profiles = Profile.all }
                 }
-                .padding()
-                .clipped()
+
+                ForEach(profiles) { profile in
+                    ProfileCardView(profile: profile) { likeType in
+                        withAnimation { removeProfile(profile) }
+                        onLike(profile, type: likeType)
+                    }
+                    .padding()
+                    .clipped()
+                }
             }
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    TondorLogo()
+                }
+            }
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 

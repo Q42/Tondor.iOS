@@ -2,12 +2,11 @@ import SwiftUI
 
 struct TondorLogo: View {
     var body: some View {
-        Label {
+        HStack {
+            Image(systemName: "flame.fill")
             Text("Tondor")
                 .font(.title2)
                 .bold()
-        } icon: {
-            Image(systemName: "flame.fill")
         }
         .foregroundColor(.accentColor)
     }
