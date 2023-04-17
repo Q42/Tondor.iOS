@@ -12,6 +12,14 @@ struct TondorLogo: View {
     }
 }
 
+struct TondorLogoToolbar: ToolbarContent {
+    var body: some ToolbarContent {
+        ToolbarItem(placement: .principal) {
+            TondorLogo()
+        }
+    }
+}
+
 struct TondorLogo_Previews: PreviewProvider {
     static var previews: some View {
         TondorLogo()

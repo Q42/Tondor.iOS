@@ -20,9 +20,7 @@ struct SwipeView: View {
                 }
             }
             .toolbar {
-                ToolbarItem(placement: .principal) {
-                    TondorLogo()
-                }
+                TondorLogoToolbar()
             }
             .navigationBarTitleDisplayMode(.inline)
         }

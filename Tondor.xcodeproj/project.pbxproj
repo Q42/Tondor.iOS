@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D51A1D8728C4B0E8003F240C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D51A1D8928C4B0E8003F240C /* Localizable.strings */; };
+		D567090228D896AB006FE0D4 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567090128D896AB006FE0D4 /* ChatsView.swift */; };
+		D567090628D896B6006FE0D4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567090528D896B6006FE0D4 /* ProfileView.swift */; };
 		D5AB551228C0F3C200945633 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AB551128C0F3C200945633 /* SwipeView.swift */; };
 		D5AB551628C0F58500945633 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AB551528C0F58500945633 /* ContentView.swift */; };
 		D5AB551828C0F70B00945633 /* TondorLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AB551728C0F70B00945633 /* TondorLogo.swift */; };
@@ -25,6 +27,8 @@
 		D51A1D8A28C4B0EA003F240C /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D51A1D8B28C4B116003F240C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D551494528C6557D00BB7B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D567090128D896AB006FE0D4 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		D567090528D896B6006FE0D4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		D5AB551128C0F3C200945633 /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
 		D5AB551528C0F58500945633 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D5AB551728C0F70B00945633 /* TondorLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TondorLogo.swift; sourceTree = "<group>"; };
@@ -82,8 +86,10 @@
 			children = (
 				D5D2380328BFB91400607D73 /* TondorApp.swift */,
 				D5AB551528C0F58500945633 /* ContentView.swift */,
-				D5AB551728C0F70B00945633 /* TondorLogo.swift */,
 				D5AB551128C0F3C200945633 /* SwipeView.swift */,
+				D567090128D896AB006FE0D4 /* ChatsView.swift */,
+				D567090528D896B6006FE0D4 /* ProfileView.swift */,
+				D5AB551728C0F70B00945633 /* TondorLogo.swift */,
 				D5D2381928BFB97800607D73 /* ProfileCardView.swift */,
 				D5EAFAC028C7EDB400344E8A /* ProfileInfoView.swift */,
 				D5AB551F28C10CC400945633 /* StampView.swift */,
@@ -178,12 +184,14 @@
 			files = (
 				D5EAFAC128C7EDB400344E8A /* ProfileInfoView.swift in Sources */,
 				D5D2381828BFB94100607D73 /* Profile.swift in Sources */,
+				D567090228D896AB006FE0D4 /* ChatsView.swift in Sources */,
 				D5AB551228C0F3C200945633 /* SwipeView.swift in Sources */,
 				D5D2381C28BFB98E00607D73 /* LikeType.swift in Sources */,
 				D5AB551828C0F70B00945633 /* TondorLogo.swift in Sources */,
 				D5AB551628C0F58500945633 /* ContentView.swift in Sources */,
 				D5AB552028C10CC400945633 /* StampView.swift in Sources */,
 				D5D2381A28BFB97800607D73 /* ProfileCardView.swift in Sources */,
+				D567090628D896B6006FE0D4 /* ProfileView.swift in Sources */,
 				D5D2380428BFB91400607D73 /* TondorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

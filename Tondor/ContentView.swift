@@ -8,12 +8,12 @@ struct ContentView: View {
                     Image(systemName: "flame.fill")
                 }
 
-            Text("Placeholder for chats view")
+            ChatsView()
                 .tabItem {
                     Image(systemName: "bubble.left.and.bubble.right.fill")
                 }
 
-            Text("Placeholder for profile view")
+            ProfileView()
                 .tabItem {
                     Image(systemName: "person.fill")
                 }
